@@ -1,0 +1,37 @@
+<section>
+    <main class="main-signIn">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <div class="SignIncard">
+                <div class="text-center">
+                    <a class="navbar-brand" [routerLink]="['/']">HEVY</a>
+                    <h4>Welcome back!</h4>
+                    <span>Please sign in to your account.</span>
+                </div>
+                <div class="my-3 text-end">
+                    <div class="form-floating my-2">
+                        <input type="text" id="floatingInput" class="form-control" placeholder="Username">
+                        <label for="floatingInput">Username</label>
+                    </div>
+                    <div class="form-floating my-2">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <a href=""  style="text-decoration: none;" class="">Forgot Password?</a>
+                </div>
+                <button class="btn btn-primary rounded-pill mt-3" style="padding: 0.7rem 0;">Sign in</button>
+                <div class="d-flex justify-content-center my-4">
+                    <hr  class="orLine"><span class="mx-2"> or </span><hr class="orLine">
+                </div>
+                <button class="btn btn-light my-2 rounded-pill" style="padding: 0.7rem 0;">Sign in with Google</button>
+                <button class="btn btn-light my-2 rounded-pill" style="padding: 0.7rem 0;"><fa-icon [icon]="faAppleAlt"></fa-icon> Sign in with Apple</button>
+            </div>
+            <div class="text-center">
+                <span style="color: #757575;">Dont't have an account? 
+                    <a style="text-decoration: none;" [routerLink]="['/signUp']">Sign up</a>
+                </span>
+            </div>
+        </div>
+    </main>
+</section>
+
+<router-outlet></router-outlet>

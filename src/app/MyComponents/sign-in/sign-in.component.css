@@ -1,0 +1,78 @@
+.main-signIn {
+    background-color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-control {
+    background: transparent !important;
+    border: 1px solid #757575 !important;
+    border-radius: 1.2rem !important;
+    color: #757575 !important;
+}
+
+
+.form-control:focus {
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-floating>.form-control-plaintext~label::after,
+.form-floating>.form-control:focus~label::after,
+.form-floating>.form-control:not(:placeholder-shown)~label::after,
+.form-floating>.form-select~label::after {
+    position: absolute;
+    inset: 1rem 0.375rem;
+    z-index: -1;
+    height: 1.5em;
+    content: "";
+    background-color: transparent !important;
+    border-radius: none !important;
+}
+
+.SignIncard {
+    width: 35%;
+    color: #fff !important;
+    border-radius: 1.2rem;
+    padding: 2rem 2rem;
+    background: #0f0f0f;
+    border: 0.5px solid #1d1d1d;
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.orLine{
+    height: 3px;
+    color: #fff;
+    width: 40%;
+}

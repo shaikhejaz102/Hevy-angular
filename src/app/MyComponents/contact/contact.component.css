@@ -1,0 +1,77 @@
+.home{
+    background-color:#0d0d0d;
+}
+
+.h1-font{
+    font-size: 3rem !important;
+    background: linear-gradient(160deg, #fff, #0d0d0d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.span-text{
+    -webkit-text-fill-color:#5094fd;
+}
+
+.Maincard {
+    width: 50%;
+    padding: 5rem !important;
+    color: #697585;
+    border-radius: 1.2rem 0 0 1.2rem;
+    padding: 2rem 2rem;
+    /* background: #090f1b; */
+    background: #111112;
+    /* border: 0.5px solid #1d1d1d; */
+    border: none !important;
+}
+
+.main-contact{
+    display: flex;
+    justify-content: center;
+}
+
+.Sidecard {
+    width: 30%;
+    padding: 5rem !important;
+    color: #fff;
+    border-radius: 0 1.2rem 1.2rem 0;
+    padding: 2rem 2rem;
+    /* background: #0f203c; */
+    background: #15191f;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control{
+    background: transparent !important;
+    border-bottom: 2px solid #1f2b3d !important;
+    border: none;
+}
+
+.form-control:focus {
+    color: #fff !important;
+    background-color: transparent !important;
+    border-color: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.form-floating>.form-control-plaintext~label::after,
+.form-floating>.form-control:focus~label::after,
+.form-floating>.form-control:not(:placeholder-shown)~label::after,
+.form-floating>.form-select~label::after {
+    position: absolute;
+    inset: 1rem 0.375rem;
+    z-index: -1;
+    height: 1.5em;
+    content: "";
+    background-color: transparent !important;
+    border-radius: none !important;
+}
+
+.form-check-input:checked {
+    background-color: #46ca6c;
+    border-color: #46ca6c;
+}

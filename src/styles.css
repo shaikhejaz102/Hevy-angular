@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+
+html{
+    font-size: 90%;
+}
+
+@media screen and (max-width:1400px) {
+    html{
+        font-size: 85%;
+    }
+}
+@media screen and (max-width:1200px) {
+    html{
+        font-size: 80%;
+    }
+
+    .SignUpcard{
+        width: 50% !important;
+    }
+    .SignIncard{
+        width: 50% !important;
+    }
+}
+@media screen and (max-width:992px) {
+    html{
+        font-size: 75%;
+    }
+
+    .SignUpcard{
+        width: 60% !important;
+    }
+    .SignIncard{
+        width: 60% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    html{
+        font-size: 70%;
+    }
+
+    .h1-font{
+        width: 100% !important;
+    }
+
+    .main-contact{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Maincard{
+        width: 95% !important;
+    }
+
+    .Sidecard{
+        width: 95% !important;
+    }
+
+    .SignUpcard{
+        width: 70% !important;
+    }
+    .SignIncard{
+        width: 70% !important;
+    }
+
+    .card-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:600px) {
+    html{
+        font-size: 65%;
+    }
+
+    .main-contact{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .SignUpcard{
+        width: 80% !important;
+    }
+    .SignIncard{
+        width: 80% !important;
+    }
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

@@ -1,0 +1,48 @@
+
+.home{
+    background-color:#0d0d0d;
+}
+
+.h1-font{
+    font-size: 3rem !important;
+    background: linear-gradient(160deg, #fff, #0d0d0d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.span-text{
+    -webkit-text-fill-color:#5094fd;
+}
+
+.div-text{
+    color: #636363;
+}
+
+.second-main{
+    color: #555555;
+}
+
+.second-div:hover{
+    color: #fff;
+}
+
+.card{
+    color: #fff;
+    border-radius: 1.2rem;
+    padding: 2rem 2rem;
+    background: #0f0f0f;
+    border: 0.5px solid #1d1d1d;
+}
+.card:hover{
+    cursor: pointer;
+    transition: 0.5s all;
+    background: linear-gradient(45deg, #131c25, #4c7ba7, #9db9d5)
+}
+
+.fontAwesome{
+    color: #0d0d0d;
+    background: #fff;
+    padding: 0.8rem 1rem;
+    border-radius: 3rem;
+    width: fit-content;
+}

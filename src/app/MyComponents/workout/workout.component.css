@@ -1,0 +1,14 @@
+.home{
+    background-color:#0d0d0d;
+}
+
+.h1-font{
+    font-size: 3rem !important;
+    background: linear-gradient(160deg, #fff, #0d0d0d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.span-text{
+    -webkit-text-fill-color:#5094fd;
+}
